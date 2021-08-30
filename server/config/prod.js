@@ -1,3 +1,3 @@
 module.exports = {
-    mongoKey: process.env.YELP_KEY
+    mongoKey: process.env.mongoKey
 };
