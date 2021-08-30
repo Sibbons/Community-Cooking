@@ -1,0 +1,95 @@
+body{
+  max-width: 700px;
+  margin: auto;
+  font-family: sans-serif;
+  background-color: #2c2f33;
+  color:white
+}
+textarea{
+  resize: none;
+}
+ a{
+   color: lightblue;
+ }
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.recipeList {
+  width: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-items: center;
+}
+
+.recipeList li{
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.recipeTitle{
+  text-align: center;
+}
+
+.subHeadings{
+  color: tomato;
+}
+
+.list ol li{
+  margin-bottom: 8px;
+}
+
+.inputField{
+  display: flex;
+  align-items: center;
+}
+
+.submit{
+  margin-top: 20px
+}
+
+.remove{
+  margin-left: 15px;
+}
+
+.subHead{
+  display: inline-block;
+  width: 120px;
+  margin-left: 25px;
+}
+.marginWrap{
+  margin-left: 25px;
+}
+
+.titleInput{
+  width: 40%;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.descriptionInput{
+  width: 80%;
+  padding: 10px 10px 40px 10px;
+  margin-left: 25px;
+}
+
+.listInput{
+  width: 80%;
+  height: 15px;
+  margin-top: 5px;
+  padding-left: 8px;
+  padding-bottom: 15px;
+  padding-top: 4px;
+}
+
+.index{
+  margin-right: 12px;
+}
